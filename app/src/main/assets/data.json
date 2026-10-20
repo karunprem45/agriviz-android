@@ -1,0 +1,95 @@
+{
+  "plant_disease": [
+    {
+      "name": "apple apple scab",
+      "symptoms": "black spots on fruits and leaves",
+      "management": "organic solution:copper-based fungicides inorganic solution:synthetic fungicides "
+    },
+    {
+      "name": "apple black rot",
+      "symptoms": "purple spots ",
+      "management": "organic solution:neem oil inorganic solution: thiophanate-methyl"
+    },
+    {
+      "name": "tomato septoria leaf spot",
+      "symptoms": "brown, elongated rectangular lesions with irregular margins.",
+      "management": "organic solution: neem oil inorganic solution :   chlorothalonil"
+    },
+    {
+      "name": "tomato late blight",
+      "symptoms": "purple-brown, oily-appearing blotches",
+      "management": "organic solution:Bacillus subtilis  inorganic solution : chlorothalonil  "
+    },
+    {
+      "name": "tomato leaf mold",
+      "symptoms": " brown-purple ring",
+      "management": "organic solution:copper-based fungicides  inorganic solution : mancozeb   "
+    },
+    {
+      "name": "grap black rot ",
+      "symptoms": "Brown to black concentric rings",
+      "management": " organic solution:baking soda spray  inorganic solution : sulfur sprays  "
+    },
+    {
+      "name": "potato late blight ",
+      "symptoms": " rough, cracked skin, with scab-like spots",
+      "management": " organic solution: biofungicides inorganic solution : chlorothalonil and mancozeb   "
+    },
+    {
+      "name": "tomato bacterial spot ",
+      "symptoms": "extensive leaf yellowing and leaf loss",
+      "management": "organic solution:Bacillus subtilis  inorganic solution :copper hydroxide   "
+    },
+    {
+      "name": " strawberry leaf scorch",
+      "symptoms": " Minuscule dark, black spots are a sign of the fungus",
+      "management": " organic solution:compost tea   inorganic solution :copper fungicides   "
+    },
+    {
+      "name": " tomato target spot",
+      "symptoms": " yellow halo around it in the transplants",
+      "management": "organic solution:potassium bicarbonate  inorganic solution :chlorothalonil    "
+    },
+    {
+      "name": " corn maize common rust",
+      "symptoms": " rust-colored to dark brown",
+      "management": " organic solution:neem oil  inorganic solution :strobilurins    "
+    },
+    {
+      "name": "apple cedar apple rust  ",
+      "symptoms": " small chlorotic (yellow) spots",
+      "management": " organic solution:baking soda  inorganic solution :sulfur sprays  "
+    },
+    {
+      "name": " cherry including sour powdery mildew",
+      "symptoms": "susceptible leaves (newly unfolded ",
+      "management": " organic solution:potassium bicarbonate sprays  inorganic solution :sulfur-based fungicides  "
+    },
+    {
+      "name": "grape esca ",
+      "symptoms": "  Brownish black lesions are formed on the berries",
+      "management": "organic solution:soil inorganic solution : chemical fungicides   "
+    },
+    {
+      "name": "grape leaf blight ",
+      "symptoms": " Small light brown young leaves ",
+      "management": " organic solution:copper-based fungicides inorganic solution :synthetic fungicides  "
+    },
+    {
+      "name": " orange huanglongbing ",
+      "symptoms": " yellow, asymmetrical mottling of the leaves",
+      "management": "organic solution:compost tea  inorganic solution:mineral nutrient   "
+    },
+    {
+      "name": "peach bacterial spot  ",
+      "symptoms": " Leaf yellowing",
+      "management": " organic solution:Bacillus subtilis inorganic solution :copper sulfate    "
+    },
+    {
+      "name": " pepper bell Bacterial spot ",
+      "symptoms": " small, water-soaked spots ",
+      "management": " organic solution:Bacillus subtilis  inorganic solution :Bordeaux mixture    "
+    }
+  ]
+}
+

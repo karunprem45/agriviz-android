@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Leaf Disease</string>
+    <string name="descriptionImage">View for displaying image</string>
+    <string name="title_activity_details">Details</string>
+    <string name="subtitle_1">Disease Symptoms :</string>
+    <string name="subtitle_2">Disease Management :</string>
+    <string name="login">Login</string>
+    <string name="logout">Log out</string>
+    <string name="email_or_username">Email or username</string>
+    <string name="password">Password</string>
+    <string name="login_to_register">Don\'t have any account?</string>
+    <string name="register_to_login">Already have any account?</string>
+    <string name="register">Register</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="confirm_password">Confirm password</string>
+
+    <string name="password_error">password should have at least one digit,one lower case letter,one upper case letter, one special character,minimum 8 character</string>
+    <string name="confirm_password_error">Passwords are not same</string>
+    <string name="phone_number_error">please enter phone number with country code</string>
+    <string name="first_name_error">First name is too short</string>
+    <string name="email_error">Invalid email address</string>
+    <string name="password_invalid_error">Invalid password</string>
+    <string name="text_empty_error">This field cannot be empty</string>
+    <string name="if_you_are_admin">If you are admin?</string>
+    <string name="verify_now">Verify now</string>
+    <string name="email_is_not_verify">Your email is not verified,please verify now!</string>
+    <string name="select_image">Select Image</string>
+    <string name="open_camara">Open Camara</string>
+
+    <string name="type_message_here">Type message here</string>
+    <string name="soil_prediction">Soil prediction</string>
+    <string name="check">Check</string>
+    <string name="prediction">Recommended Crop</string>
+    <string name="light">Light</string>
+    <string name="gas">Gas</string>
+    <string name="humidity">Humidity</string>
+    <string name="temperature">Temperature</string>
+    <string name="enter_k_value">Enter K value...</string>
+    <string name="k">K</string>
+    <string name="enter_p_value">Enter P value...</string>
+    <string name="p">P</string>
+    <string name="enter_n_value">Enter N value...</string>
+    <string name="n">N</string>
+    <string name="water_ph">Water PH</string>
+    <string name="rainfall">RainFall</string>
+    <string name="soil_ph">Soil PH</string>
+    <string name="output">Output</string>
+</resources>

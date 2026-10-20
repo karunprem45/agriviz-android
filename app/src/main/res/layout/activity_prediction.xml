@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        tools:context=".predictionActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#134359"
+            android:textSize="28sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/n"
+                android:padding="15dp"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/n1"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/enter_n_value"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/p"
+                android:padding="15dp"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/p"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/enter_p_value"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/k"
+                android:padding="15dp"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/k"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:hint="@string/enter_k_value"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/temperature"
+                android:padding="15dp"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/edit_temp"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:gravity="center"
+                android:hint="@string/temperature"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:inputType="numberDecimal"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/humidity"
+                android:padding="15dp"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/edit_humidity"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:gravity="center"
+                android:hint="@string/humidity"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:inputType="numberDecimal"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/water_ph"
+                android:padding="15dp"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/edit_ph"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:gravity="center"
+                android:hint="@string/water_ph"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:inputType="numberDecimal"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/rainfall"
+                android:padding="15dp"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:id="@+id/edit_rainfall"
+                android:padding="15dp"
+                android:gravity="center"
+                android:hint="@string/rainfall"
+                android:textColor="#134359"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:inputType="numberDecimal"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/prediction"
+                android:padding="15dp"
+                android:textColor="#134359"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/prediction"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:gravity="center"
+                android:hint="@string/output"
+                android:textColor="#F308D3"
+                android:textSize="28sp"
+                android:textStyle="bold|italic"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_btn"
+            android:text="@string/check"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:padding="12dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCF4B9E8"/>
+
+
+        <TextView
+            android:id="@+id/testView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtString"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:text=""
+            android:visibility="gone"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
